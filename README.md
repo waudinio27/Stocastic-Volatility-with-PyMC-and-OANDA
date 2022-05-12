@@ -7,6 +7,8 @@ It is with OANDA broker and uses the package PyMC to calculate the MCMC - Monte 
 
 The prediction is done by putting other values for the length of the trace. After the inference was done the new estimated value can be compared to the old one.  
 
+The same approach is applied for the second model as well. It is my adoption of the stochastic volatility example from PyMC3 https://docs.pymc.io/en/v3/pymc-examples/examples/case_studies/stochastic_volatility.html. The predictons are done, but more samples should be drawn to improve the prediction. 
+
 If you have ideas to improve the current work do not hesitate to contact me :-D
 
 Cheers and thank you!
